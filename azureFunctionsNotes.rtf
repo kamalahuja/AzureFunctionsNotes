@@ -1,0 +1,293 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red46\green174\blue187;
+\red159\green160\blue28;\red64\green11\blue217;\red252\green33\blue24;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;\cssrgb\c20196\c73240\c78250;
+\cssrgb\c68468\c68012\c14208;\cssrgb\c32308\c18668\c88227;\cssrgb\c100000\c23177\c11601;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0   "provisioningState": "Succeeded"\
+  \},\
+  "tags": null,\
+  "type": "Microsoft.Resources/resourceGroups"\
+\}\
+(base) Kamals-MacBook-Pro:~ kamalahuja$ az functionapp -h\
+\
+Group\
+    az functionapp : Manage function apps. To install the Azure Functions Core tools see\
+    https://github.com/Azure/azure-functions-core-tools.\
+\
+Subgroups:\
+    config                      : Configure a function app.\
+    cors                        : Manage Cross-Origin Resource Sharing (CORS).\
+    deployment                  : Manage function app deployments.\
+    devops-pipeline             : Azure Function specific integration with Azure DevOps. Please\
+                                  visit https://aka.ms/functions-azure-devops for more information.\
+    hybrid-connection \cf4 [Preview]\cf2  : Methods that list, add and remove hybrid-connections\
+                                  from functionapp.\
+    identity                    : Manage web app's managed service identity.\
+    plan                        : Manage App Service Plans for an Azure Function.\
+    vnet-integration  \cf4 [Preview]\cf2  : Methods that list, add, and remove virtual networks\
+                                  integrations from a functionapp.\
+\
+Commands:\
+    create                      : Create a function app.\
+    delete                      : Delete a function app.\
+    list                        : List function apps.\
+    list-consumption-locations  : List available locations for running function apps.\
+    restart                     : Restart a function app.\
+    show                        : Get the details of a function app.\
+    start                       : Start a function app.\
+    stop                        : Stop a function app.\
+    update                      : Update a function app.\
+\
+
+\f1\b \cf5 Please let us know how we are doing: \cf6 https://aka.ms/clihats
+\f0\b0 \cf2 \
+(base) Kamals-MacBook-Pro:~ kamalahuja$ cls\
+-bash: cls: command not found\
+(base) Kamals-MacBook-Pro:~ kamalahuja$ clear\
+\
+(base) Kamals-MacBook-Pro:~ kamalahuja$ az storage account create\
+/usr/local/Cellar/azure-cli/2.1.0/libexec/lib/python3.8/site-packages/azure/multiapi/storage/v2018_11_09/blob/_upload_chunking.py:403: SyntaxWarning: "is" with a literal. Did you mean "=="?\
+  if n is 0 or self._buffer.closed:\
+/usr/local/Cellar/azure-cli/2.1.0/libexec/lib/python3.8/site-packages/azure/multiapi/storage/v2018_11_09/blob/baseblobservice.py:1063: SyntaxWarning: "is not" with a literal. Did you mean "!="?\
+  if lease_duration is not -1 and \\\
+/usr/local/Cellar/azure-cli/2.1.0/libexec/lib/python3.8/site-packages/azure/multiapi/storage/v2018_11_09/blob/baseblobservice.py:2719: SyntaxWarning: "is not" with a literal. Did you mean "!="?\
+  if lease_duration is not -1 and \\\
+/usr/local/Cellar/azure-cli/2.1.0/libexec/lib/python3.8/site-packages/azure/multiapi/storage/v2018_11_09/common/_connection.py:82: SyntaxWarning: "is" with a literal. Did you mean "=="?\
+  self.protocol = self.protocol if parsed_url.scheme is '' else parsed_url.scheme\
+/usr/local/Cellar/azure-cli/2.1.0/libexec/lib/python3.8/site-packages/azure/multiapi/cosmosdb/v2017_04_17/common/_connection.py:91: SyntaxWarning: "is" with a literal. Did you mean "=="?\
+  self.protocol = self.protocol if parsed_url.scheme is '' else parsed_url.scheme\
+\cf7 az storage account create: error: the following arguments are required: --resource-group/-g, --name/-n\cf2 \
+usage: az storage account create [-h] [--verbose] [--debug] [--output \{json,jsonc,table,tsv,yaml,yamlc,none\}] [--query JMESPATH]\
+                                 [--subscription _SUBSCRIPTION] --resource-group RESOURCE_GROUP_NAME --name ACCOUNT_NAME\
+                                 [--sku \{Standard_LRS,Standard_GRS,Standard_RAGRS,Standard_ZRS,Premium_LRS,Premium_ZRS,Standard_GZRS,Standard_RAGZRS\}]\
+                                 [--location LOCATION] [--kind \{Storage,StorageV2,BlobStorage,FileStorage,BlockBlobStorage\}]\
+                                 [--tags [TAGS [TAGS ...]]] [--custom-domain CUSTOM_DOMAIN]\
+                                 [--encryption-services \{blob,file,table,queue\} [\{blob,file,table,queue\} ...]] [--access-tier \{Hot,Cool\}]\
+                                 [--https-only [\{true,false\}]] [--enable-files-aadds [\{true,false\}]]\
+                                 [--bypass \{None,Logging,Metrics,AzureServices\} [\{None,Logging,Metrics,AzureServices\} ...]]\
+                                 [--default-action \{Allow,Deny\}] [--assign-identity] [--enable-large-file-share]\
+                                 [--enable-files-adds [\{true,false\}]] [--domain-name DOMAIN_NAME] [--net-bios-domain-name NET_BIOS_DOMAIN_NAME]\
+                                 [--forest-name FOREST_NAME] [--domain-guid DOMAIN_GUID] [--domain-sid DOMAIN_SID]\
+                                 [--azure-storage-sid AZURE_STORAGE_SID] [--enable-hierarchical-namespace [\{true,false\}]]\
+                                 [--encryption-key-type-for-table \{Account,Service\}] [--encryption-key-type-for-queue \{Account,Service\}]\
+(base) Kamals-MacBook-Pro:~ kamalahuja$ az storage account create -n "azurefunctionshelloworldstorage" -l "centralus" -g "AzureFunctionsHelloWorld"\
+\cf7 validation error: Parameter 'account_name' must have length less than 24.\cf2 \
+(base) Kamals-MacBook-Pro:~ kamalahuja$ az storage account create -n "azfunchelloworldstore" -l "centralus" -g "AzureFunctionsHelloWorld"\
+\{\
+  "accessTier": "Hot",\
+  "azureFilesIdentityBasedAuthentication": null,\
+  "blobRestoreStatus": null,\
+  "creationTime": "2020-02-27T04:47:11.595384+00:00",\
+  "customDomain": null,\
+  "enableHttpsTrafficOnly": true,\
+  "encryption": \{\
+    "keySource": "Microsoft.Storage",\
+    "keyVaultProperties": null,\
+    "services": \{\
+      "blob": \{\
+        "enabled": true,\
+        "keyType": "Account",\
+        "lastEnabledTime": "2020-02-27T04:47:11.642254+00:00"\
+      \},\
+      "file": \{\
+        "enabled": true,\
+        "keyType": "Account",\
+        "lastEnabledTime": "2020-02-27T04:47:11.642254+00:00"\
+      \},\
+      "queue": null,\
+      "table": null\
+    \}\
+  \},\
+  "failoverInProgress": null,\
+  "geoReplicationStats": null,\
+  "id": "/subscriptions/04ad8a36-314b-4f64-9ff4-b276385cfefe/resourceGroups/AzureFunctionsHelloWorld/providers/Microsoft.Storage/storageAccounts/azfunchelloworldstore",\
+  "identity": null,\
+  "isHnsEnabled": null,\
+  "kind": "StorageV2",\
+  "largeFileSharesState": null,\
+  "lastGeoFailoverTime": null,\
+  "location": "centralus",\
+  "name": "azfunchelloworldstore",\
+  "networkRuleSet": \{\
+    "bypass": "AzureServices",\
+    "defaultAction": "Allow",\
+    "ipRules": [],\
+    "virtualNetworkRules": []\
+  \},\
+  "primaryEndpoints": \{\
+    "blob": "https://azfunchelloworldstore.blob.core.windows.net/",\
+    "dfs": "https://azfunchelloworldstore.dfs.core.windows.net/",\
+    "file": "https://azfunchelloworldstore.file.core.windows.net/",\
+    "internetEndpoints": null,\
+    "microsoftEndpoints": null,\
+    "queue": "https://azfunchelloworldstore.queue.core.windows.net/",\
+    "table": "https://azfunchelloworldstore.table.core.windows.net/",\
+    "web": "https://azfunchelloworldstore.z19.web.core.windows.net/"\
+  \},\
+  "primaryLocation": "centralus",\
+  "privateEndpointConnections": [],\
+  "provisioningState": "Succeeded",\
+  "resourceGroup": "AzureFunctionsHelloWorld",\
+  "routingPreference": null,\
+  "secondaryEndpoints": \{\
+    "blob": "https://azfunchelloworldstore-secondary.blob.core.windows.net/",\
+    "dfs": "https://azfunchelloworldstore-secondary.dfs.core.windows.net/",\
+    "file": null,\
+    "internetEndpoints": null,\
+    "microsoftEndpoints": null,\
+    "queue": "https://azfunchelloworldstore-secondary.queue.core.windows.net/",\
+    "table": "https://azfunchelloworldstore-secondary.table.core.windows.net/",\
+    "web": "https://azfunchelloworldstore-secondary.z19.web.core.windows.net/"\
+  \},\
+  "secondaryLocation": "eastus2",\
+  "sku": \{\
+    "name": "Standard_RAGRS",\
+    "tier": "Standard"\
+  \},\
+  "statusOfPrimary": "available",\
+  "statusOfSecondary": "available",\
+  "tags": \{\},\
+  "type": "Microsoft.Storage/storageAccounts"\
+\}\
+(base) Kamals-MacBook-Pro:~ kamalahuja$ ls\
+Applications		Downloads		Movies			Public			npm-debug.log\
+Desktop			IdeaProjects		Music			eclipse			opt\
+Documents		Library			Pictures		eclipse-workspace\
+(base) Kamals-MacBook-Pro:~ kamalahuja$ cd Documents/\
+(base) Kamals-MacBook-Pro:Documents kamalahuja$ ls\
+Algorithms		KAMAL			ROSY			passportSizePhoto\
+Anvi_Worksheet		Microsoft User Data	Software\
+(base) Kamals-MacBook-Pro:Documents kamalahuja$ cd KAMAL/\
+(base) Kamals-MacBook-Pro:KAMAL kamalahuja$ ls\
+Admera				India tax			OCI				TaxFiling\
+Ahuja, Kamal_Offer Letter .pdf	LearnIOS			Orcle				TicketConfrmaton.pdf\
+AnviBday			MorganStanley			Order				VISAASTAMPING\
+Anvi_OCI			MorganStanley.zip		PF_Withdrawal			Workspace\
+Anvi_School_Admission		MyTest				Papa				ticket violation\
+Bills				MyVideo				PapaTickets\
+FOIA				NH_Trip				ParamH1b\
+HackerRank			Netgear				Param_End\
+(base) Kamals-MacBook-Pro:KAMAL kamalahuja$ cd Workspace/\
+(base) Kamals-MacBook-Pro:Workspace kamalahuja$ ls\
+Algorithm	AngularApollo	Coursera	Python		mongodb		node_modules	untitled folder\
+Angular2	AzureHelloWorld	Helloworld	UDEMY		myuconnect	uconnect\
+(base) Kamals-MacBook-Pro:Workspace kamalahuja$ mkdir AzureFunctions\
+(base) Kamals-MacBook-Pro:Workspace kamalahuja$ cd AzureFunctions/\
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ echo '\{"Application_Type":"web"\}' > props.json\
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ ls\
+props.json\
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ az storage account create -n "azureFuncAppInsight" -g "AzureFunctionsHelloWorld" --resource-type "Microsoft.Insights/components" --properties "@props.json"\
+\cf7 az: error: unrecognized arguments: --resource-type Microsoft.Insights/components --properties \{"Application_Type":"web"\}\cf2 \
+usage: az [-h] [--verbose] [--debug] [--output \{json,jsonc,table,tsv,yaml,yamlc,none\}] [--query JMESPATH] \{storage\} ...\
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ az resource create -n "azureFuncAppInsight" -g "AzureFunctionsHelloWorld" --resource-type "Microsoft.Insights/components" --properties "@props.json"\
+\{\
+  "etag": "\\"0100e656-0000-0300-0000-5e574d1f0000\\"",\
+  "id": "/subscriptions/04ad8a36-314b-4f64-9ff4-b276385cfefe/resourceGroups/AzureFunctionsHelloWorld/providers/microsoft.insights/components/azureFuncAppInsight",\
+  "identity": null,\
+  "kind": "web",\
+  "location": "centralus",\
+  "managedBy": null,\
+  "name": "azureFuncAppInsight",\
+  "plan": null,\
+  "properties": \{\
+    "AppId": "c159222a-4718-40da-8605-55ad1e7a8c11",\
+    "ApplicationId": "azureFuncAppInsight",\
+    "Application_Type": "web",\
+    "ConnectionString": "InstrumentationKey=90ca3f09-f0ca-4d86-96d9-58ffd8484f89",\
+    "CreationDate": "2020-02-27T05:01:19.0901039+00:00",\
+    "Flow_Type": null,\
+    "InstrumentationKey": "90ca3f09-f0ca-4d86-96d9-58ffd8484f89",\
+    "Name": "azureFuncAppInsight",\
+    "Request_Source": null,\
+    "SamplingPercentage": null,\
+    "TenantId": "04ad8a36-314b-4f64-9ff4-b276385cfefe",\
+    "Ver": "v2",\
+    "provisioningState": "Succeeded"\
+  \},\
+  "resourceGroup": "AzureFunctionsHelloWorld",\
+  "sku": null,\
+  "tags": \{\},\
+  "type": "microsoft.insights/components"\
+\}\
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ az functionapp create -n "azureJavascriptFunc" -g "AzureFunctionsHelloWorld" --storage-account "azfunchelloworldstore" --app-insights "azureFuncAppInsight" --consumption-plan-location "centralus" --runtime javascript\
+\cf7 az functionapp create: 'javascript' is not a valid value for '--runtime'. See 'az functionapp create --help'.\cf2 \
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ az functionapp create -n "azureJavascriptFunc" -g "AzureFunctionsHelloWorld" --storage-account "azfunchelloworldstore" --app-insights "azureFuncAppInsight" --consumption-plan-location "centralus" --runtime node\
+\cf5 No functions version specified so defaulting to 2. In the future, specifying a version will be required. To create a 2.x function you would pass in the flag `--functions_version 2`\cf2 \
+\{\
+  "availabilityState": "Normal",\
+  "clientAffinityEnabled": false,\
+  "clientCertEnabled": false,\
+  "clientCertExclusionPaths": null,\
+  "cloningInfo": null,\
+  "containerSize": 1536,\
+  "dailyMemoryTimeQuota": 0,\
+  "defaultHostName": "azurejavascriptfunc.azurewebsites.net",\
+  "enabled": true,\
+  "enabledHostNames": [\
+    "azurejavascriptfunc.azurewebsites.net",\
+    "azurejavascriptfunc.scm.azurewebsites.net"\
+  ],\
+  "hostNameSslStates": [\
+    \{\
+      "hostType": "Standard",\
+      "ipBasedSslResult": null,\
+      "ipBasedSslState": "NotConfigured",\
+      "name": "azurejavascriptfunc.azurewebsites.net",\
+      "sslState": "Disabled",\
+      "thumbprint": null,\
+      "toUpdate": null,\
+      "toUpdateIpBasedSsl": null,\
+      "virtualIp": null\
+    \},\
+    \{\
+      "hostType": "Repository",\
+      "ipBasedSslResult": null,\
+      "ipBasedSslState": "NotConfigured",\
+      "name": "azurejavascriptfunc.scm.azurewebsites.net",\
+      "sslState": "Disabled",\
+      "thumbprint": null,\
+      "toUpdate": null,\
+      "toUpdateIpBasedSsl": null,\
+      "virtualIp": null\
+    \}\
+  ],\
+  "hostNames": [\
+    "azurejavascriptfunc.azurewebsites.net"\
+  ],\
+  "hostNamesDisabled": false,\
+  "hostingEnvironmentProfile": null,\
+  "httpsOnly": false,\
+  "hyperV": false,\
+  "id": "/subscriptions/04ad8a36-314b-4f64-9ff4-b276385cfefe/resourceGroups/AzureFunctionsHelloWorld/providers/Microsoft.Web/sites/azureJavascriptFunc",\
+  "identity": null,\
+  "inProgressOperationId": null,\
+  "isDefaultContainer": null,\
+  "isXenon": false,\
+  "kind": "functionapp",\
+  "lastModifiedTimeUtc": "2020-02-27T05:09:36.860000",\
+  "location": "centralus",\
+  "maxNumberOfWorkers": null,\
+  "name": "azureJavascriptFunc",\
+  "outboundIpAddresses": "23.101.119.163,23.99.204.128,23.99.211.242,23.99.205.25,23.99.212.42",\
+  "possibleOutboundIpAddresses": "23.101.119.163,23.99.204.128,23.99.211.242,23.99.205.25,23.99.212.42,23.99.210.227,23.99.202.156,23.99.204.198",\
+  "redundancyMode": "None",\
+  "repositorySiteName": "azureJavascriptFunc",\
+  "reserved": false,\
+  "resourceGroup": "AzureFunctionsHelloWorld",\
+  "scmSiteAlsoStopped": false,\
+  "serverFarmId": "/subscriptions/04ad8a36-314b-4f64-9ff4-b276385cfefe/resourceGroups/AzureFunctionsHelloWorld/providers/Microsoft.Web/serverfarms/CentralUSPlan",\
+  "siteConfig": null,\
+  "slotSwapStatus": null,\
+  "state": "Running",\
+  "suspendedTill": null,\
+  "tags": null,\
+  "targetSwapSlot": null,\
+  "trafficManagerHostNames": null,\
+  "type": "Microsoft.Web/sites",\
+  "usageState": "Normal"\
+\}\
+(base) Kamals-MacBook-Pro:AzureFunctions kamalahuja$ }
